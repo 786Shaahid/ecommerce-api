@@ -6,11 +6,6 @@ const port= 5000 || process.env.PORT_NO ;
 
 app.use(express.json());
 
- 
-
-
-
-
 // router
 app.use("/products",require('./routes/route'));
 
